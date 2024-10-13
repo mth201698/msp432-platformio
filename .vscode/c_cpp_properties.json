@@ -1,0 +1,78 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/joco0093/Documents/PlatformIO/Projects/241013-121632-native-blink/include",
+                "/Users/joco0093/Documents/PlatformIO/Projects/241013-121632-native-blink/src",
+                "/Users/joco0093/.platformio/packages/framework-energiamsp432r/variants/MSP_EXP432P401R",
+                "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/source",
+                "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/energia",
+                "/Users/joco0093/.platformio/packages/framework-energiamsp432r/cores/msp432r",
+                "/Users/joco0093/.platformio/packages/framework-energiamsp432r/cores/msp432r/ti/runtime/wiring",
+                "/Users/joco0093/.platformio/packages/framework-energiamsp432r/cores/msp432r/ti/runtime/wiring/msp432",
+                "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/kernel/tirtos/packages/ti/sysbios/posix",
+                "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/kernel/tirtos/packages",
+                "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/source/ti/devices/msp432p4xx/driverlib",
+                "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/source/ti/devices/msp432p4xx/inc",
+                "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/source/ti/devices/msp432p4xx",
+                "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/source/third_party/CMSIS/Include",
+                "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/kernel/tirtos/boards/MSP_EXP432P401R",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/joco0093/Documents/PlatformIO/Projects/241013-121632-native-blink/include",
+                    "/Users/joco0093/Documents/PlatformIO/Projects/241013-121632-native-blink/src",
+                    "/Users/joco0093/.platformio/packages/framework-energiamsp432r/variants/MSP_EXP432P401R",
+                    "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/source",
+                    "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/energia",
+                    "/Users/joco0093/.platformio/packages/framework-energiamsp432r/cores/msp432r",
+                    "/Users/joco0093/.platformio/packages/framework-energiamsp432r/cores/msp432r/ti/runtime/wiring",
+                    "/Users/joco0093/.platformio/packages/framework-energiamsp432r/cores/msp432r/ti/runtime/wiring/msp432",
+                    "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/kernel/tirtos/packages/ti/sysbios/posix",
+                    "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/kernel/tirtos/packages",
+                    "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/source/ti/devices/msp432p4xx/driverlib",
+                    "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/source/ti/devices/msp432p4xx/inc",
+                    "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/source/ti/devices/msp432p4xx",
+                    "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/source/third_party/CMSIS/Include",
+                    "/Users/joco0093/.platformio/packages/framework-energiamsp432r/system/kernel/tirtos/boards/MSP_EXP432P401R",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=48000000L",
+                "gcc",
+                "PLATFORMIO=60116",
+                "ENERGIA_MSP_EXP432P401R",
+                "ENERGIA_ARCH_MSP432R",
+                "__MSP432P401R__",
+                "BOARD_MSP_EXP432P401R",
+                "CORE_VERSION=5252",
+                "xdc_target_types__=gnu/targets/arm/std.h",
+                "xdc_target_name__=M4F",
+                "xdc_cfg__xheader__=\"configPkg/package/cfg/energia_pm4fg.h\"",
+                "xdc__nolocalstring=1",
+                "_DEFAULT_SOURCE",
+                ""
+            ],
+            "compilerPath": "/Users/joco0093/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m4",
+                "-mfpu=fpv4-sp-d16",
+                "-mabi=aapcs",
+                "-mfloat-abi=hard",
+                "-march=armv7e-m",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
